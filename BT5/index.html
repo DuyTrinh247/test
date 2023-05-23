@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://kit.fontawesome.com/de30a0f1aa.js" crossorigin="anonymous"></script>
+    <title>BT5</title>
+    
+</head>
+<body>
+    
+   
+   
+    <button id="btn1" onclick="start()"> <p>Đăng nhập hệ thống</p></button>
+   
+   
+    <div id="Modal-login">
+        <div class="Login-contianer">
+            <button   class="close-button" onclick="dong()"  > <i class="fa-solid fa-square-xmark" ></i></button>
+            <div class="loginForm-content">
+              
+                <div id="login-form">
+                    <h2 id="Login-heading"> Member Login</h2>
+                    <div class="user-input"><i class="fa-solid fa-user"></i><input onkeyup="clearValidate()"  placeholder="Username" id="Login-user-input"> </div>
+                    <div id="validate2"></div>
+                    <div class="pass-input"><i class="fa-sharp fa-solid fa-lock"></i><input onkeyup="clearValidate()"  type="password" placeholder="Password" id="Login-pass-input"></div>
+                    <div id="validate"></div>
+                    <div id="validate3"></div>
+                    
+                    <button id="login-button" onclick="Loading()" >
+                    Login</button>
+                </div>
+                <div id="forgot-form">
+                    <h2 id="Login-heading"> Change Password</h2>
+                    <div class="user-input"><i class="fa-sharp fa-solid fa-lock"></i><input onkeyup="clearValidate()" type="password"  placeholder="OldPassWord" id="user-input-oldpass"> </div>
+                    <div id="forgot-validate2"></div>
+                    <div class="pass-input"><i class="fa-sharp fa-solid fa-lock"></i><input onkeyup="clearValidate()" type="password" placeholder="NewPassWord" id="user-input-newpass"></div>
+                    <div id="forgot-validate"></div>
+                    <div id="forgot-validate3"></div>
+                    <button id="login-button" onclick="Save()" >
+                    Save</button>
+                </div>
+                
+            </div>
+            
+            <div class="loginForm-footer">
+                <a class="forgot-pass" onclick="forgot()"  style="text-decoration:none ; color: #fff;cursor: pointer;" >Forgot Password?</a>
+            </div>
+        </div>
+       
+    </div>
+    <script src="./main.js">
+       
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #000;
+}
+li{
+    list-style: none;
+    
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.even{
+
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.odd{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    
+}
+.odd2{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+.even2{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+.yc2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+span{
+    width: 50px;
+    height: 50px;
+   
+}
+
+
+@media only screen and (max-width: 1200px) {
+.odd2 {
+    background-color: violet;
+    width: 50px;
+}
+.even2 {
+    background-color: rosybrown;
+    width: 100px;
+}
+.odd{
+    
+        background-color: violet;
+        width: 50px;
+    
+}
+.even {
+    background-color: rosybrown;
+    width: 100px;
+}
+}
+@media only screen and (max-width: 992px) {
+    .odd2{
+        background-color: yellow;
+        width: 30px;
+    }
+    .even2{
+        background-color: violet;
+        width: 40px;
+    }
+    .odd{
+        background-color: yellow;
+        width: 30px;
+    }
+    .even{
+        background-color: violet;
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .odd2{
+        background-color: royalblue;
+        width: 30px;
+    }
+    .even2{
+        background-color: yellow;
+        width: 40px;
+    }
+    .odd{
+        background-color: royalblue;
+        width: 30px;
+    }
+    .even{
+        background-color: yellow;
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .odd2{
+        background-color: yellow;
+        width: 20px;
+    }
+    .even2{
+        background-color: red;
+        width: 50px;
+    }
+    .odd{
+        background-color: yellow;
+        width: 20px;
+    }
+    .even{
+        background-color: red;
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .odd2{
+        background-color: red;
+        width: 20px;
+    }
+    .even2{
+        background-color: green;
+        width: 30px;
+    }
+    .odd{
+        background-color: red;
+        width: 20px;
+    }
+    .even{
+        background-color: green;
+        width: 30px;
+    }
+} 
+
